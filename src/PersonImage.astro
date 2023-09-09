@@ -1,0 +1,43 @@
+---
+interface Props {
+	class: string;
+    url:string
+}
+const { class: classPeople } = Astro.props;
+const{url: peopleURL} = Astro.props
+---
+
+<div class={classPeople}>
+    <img src={peopleURL}  />
+</div>
+
+<style>
+    div{
+        position: absolute;
+        width: 100px;
+        height: 75px;
+    }
+    div img{
+        width: 100%;
+    }
+    .craig {
+        top:100px;
+        left: 18%;
+       
+    }
+    .matheus{
+        top:90px;
+        left: 73%;
+
+    }
+    .stefan{
+        top:400px;
+        left: 28%;
+
+    }
+    .vicky{
+        top:390px;
+        left: 65%;
+    }
+
+</style>

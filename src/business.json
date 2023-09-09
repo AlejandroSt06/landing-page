@@ -1,0 +1,59 @@
+ [
+    {
+      "title": "Business showcase",
+      "images": [
+        "public/images/Business ShowCase/Banking Dashbord.png",
+        "public/images/Business ShowCase/conf.png",
+        "public/images/Business ShowCase/Online Education Website.png",
+        "public/images/Business ShowCase/web design landing page.png",
+        "public/images/Business ShowCase/Banking Dashbord.png",
+        "public/images/Business ShowCase/conf.png",
+        "public/images/Business ShowCase/Online Education Website.png",
+        "public/images/Business ShowCase/web design landing page.png",
+        "public/images/Business ShowCase/web design landing page.png"
+      ],
+      "description": "Questa è la descrizione dell'oggetto 1."
+    },
+    {
+      "title": "Online store",
+      "images": [
+        "public/images/Online Stores/Ryanazi.png",
+        "public/images/Online Stores/App store.png",
+        "public/images/Online Stores/Adidas concept.png",
+        "public/images/Online Stores/payment-details.png",
+        "public/images/Online Stores/Ryanazi.png",
+        "public/images/Online Stores/App store.png",
+        "public/images/Online Stores/Adidas concept.png",
+        "public/images/Online Stores/payment-details.png"
+      ],
+      "description": "Questa è la descrizione dell'oggetto 2."
+    },
+    {
+      "title": "Blog",
+      "images": [
+        "public/images/Blogs/artificial product blog.png",
+        "public/images/Blogs/blog website concept.png",
+        "public/images/Blogs/Food blog.png",
+        "public/images/Blogs/Fashion Blog.jpg",
+        "public/images/Blogs/artificial product blog.png",
+        "public/images/Blogs/blog website concept.png",
+        "public/images/Blogs/Food blog.png",
+        "public/images/Blogs/Fashion Blog.jpg"
+      ],
+      "description": "Questa è la descrizione dell'oggetto 3."
+    },
+    {
+      "title": "SaaS",
+      "images": [
+        "public/images/Saas/default Saas.jpg",
+        "public/images/Saas/online banking.png",
+        "public/images/Saas/prdouct design Saas.png",
+        "public/images/Saas/Saas healtech.png",
+        "public/images/Saas/default Saas.jpg",
+        "public/images/Saas/online banking.png",
+        "public/images/Saas/prdouct design Saas.png",
+        "public/images/Saas/Saas healtech.png"
+      ],
+      "description": "Questa è la descrizione dell'oggetto 4."
+    }
+  ]

@@ -1,0 +1,39 @@
+---
+import ActionButton from "./ActionButton.astro";
+import PersonImage from "./PersonImage.astro";
+---
+<style>
+.container {
+        min-width: 100%;
+        position: relative;
+        padding: 0;
+        margin: 0;
+    }
+      
+    }
+
+</style>
+
+<div class="container bg-secondary-p py-md-5 gap-5 ">
+    <div class="people d-none d-md-flex">
+    <PersonImage class = "craig" url = "/People/craig.jpg"/>  
+    <PersonImage class = "matheus" url = "/People/matheus.jpg"/>  
+    <PersonImage class = "stefan" url = "/People/stefan.jpg"/>  
+    <PersonImage class = "vicky" url = "/People/vicky.jpg"/>  
+    </div>
+    <div class="text-center w-100 d-flex flex-column justify-content-between align-items-center gap-5 h-100 py-5 my-5">
+
+        <h2 class="text-body-emphasis h1 display-3  m-auto  fw-bold  hero-heading my-md-5 py-md-5">Meet the poeople who choose Nulla</h2>
+
+        <div
+            class=" w-75 d-flex align-items-center justify-content-center  mb-5 pe-md-5 me-4 my-md-5 pt-md-5 flex-column flex-lg-row"
+        >
+            <p class="mx-auto text-center fs-5 text-muted pt-2">
+                Discover how people are changing the future of websites
+            </p>
+            <ActionButton text  = "Read their stories" />
+        </div>
+    </div>
+</div>
+
+

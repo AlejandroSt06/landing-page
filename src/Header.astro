@@ -1,0 +1,137 @@
+<nav class="navbar navbar-expand-lg pt-3">
+  <div class="container-fluid">
+    <a class="navbar-brand ms-lg-5 ps-lg-5 fw-bolder" href="#">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="icon icon-tabler icon-tabler-brand-foursquare mb-1"
+        width="32"
+        height="32"
+        viewBox="0 0 24 24"
+        stroke-width="2"
+        stroke="currentColor"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" fill=""></path>
+        <path
+          d="M7 3h10c.644 0 1.11 .696 .978 1.33l-1.984 9.859a1.014 1.014 0 0 1 -1 .811h-2.254c-.308 0 -.6 .141 -.793 .382l-4.144 5.25c-.599 .752 -1.809 .331 -1.809 -.632v-16c0 -.564 .44 -1 1 -1z"
+        ></path>
+        <path d="M12 9l5 0"></path>
+      </svg>
+       Nulla
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarScroll"
+      aria-controls="navbarScroll"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="icon icon-tabler icon-tabler-menu-2"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        stroke-width="2"
+        stroke="currentColor"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M4 6l16 0"></path>
+        <path d="M4 12l16 0"></path>
+        <path d="M4 18l16 0"></path>
+      </svg>
+    </button>
+    <div class="collapse navbar-collapse ms-lg-5 px-lg-5" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll fw-bolder">
+        <!-- Home -->
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <!-- Solution DropDown -->
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle active"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Solution
+          </a>
+          <ul class="dropdown-menu">
+            <!-- Contenuto del dropdown -->
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+
+        </li>
+        <!-- Template DropDown -->
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle active"
+            href="#"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Template
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <!-- Feautres -->
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Features</a>
+        </li>
+        <!-- About -->
+        <li class="nav-item">
+          <a class="nav-link active" href="#">About</a>
+        </li>
+      </ul>
+
+      <button class="btn btn-outline-dark ms-lg-5 me-lg-2" type="submit"
+        >Login</button
+      >
+      <button class="btn btn-dark me-lg-5" type="submit">Sign Up</button>
+    </div>
+  </div>
+</nav>
+<style>
+  .navbar {
+    position: fixed;
+    width: 100vw;
+    z-index: 111;
+    top: 0;
+    background-color: white;
+    
+  }
+  .icon-tabler-brand-foursquare {
+    color: #007BFF;
+  }
+  .navbar-collapse {
+    flex-grow: 0.4;
+  }
+  .btn {
+    border-radius: 35px;
+    padding: 7px 25px;
+  }
+  .navbar  a{
+    transition: 0.5s all ease;
+  }
+  .navbar ul a:hover{
+    color: #007BFF;
+  }
+</style>

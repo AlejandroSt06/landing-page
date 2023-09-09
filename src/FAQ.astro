@@ -1,0 +1,31 @@
+---
+import ActionButton from "./ActionButton.astro";
+import FAQcard from "../FAQcard";
+
+
+---
+<div class="container my-5 py-4">
+<div class="row hero  pb-4 pe-lg-0 pt-lg-5 align-items-start ">
+     
+    <div class=" col-lg-6  ">
+      <h2 class="display-4 fw-bold lh-1 text-body-emphasis display-4 fw-medium text-body-emphasis mb-4 ">We've got you covered, 24/7</h2>
+      <p class="lead text-tertiary">
+You can count with personalized support around the clock by email, live chat, or by joining a live webinar.
+
+      </p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+        <ActionButton text = "Visit help center"/>
+     
+      </div>
+    </div>
+    
+        <FAQcard client:idle />
+  
+  </div>
+</div>
+
+<style>
+    .hero{
+       width: 100%;
+    }
+</style>

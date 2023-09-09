@@ -1,0 +1,31 @@
+---
+import ActionButton from "./ActionButton.astro";
+---
+
+<div class="container mt-5 bg-body-tertiary rounded-3 py-5 pt-4">
+    <div class="text-center py-5 mt-5">
+
+        <h2 class="text-body-emphasis text-body-emphasis h1 display-3  m-auto  fw-bold  hero-heading mb-4 mt-5 py-4">Why Nulla?</h2>
+        <p class="col-lg-5 mx-auto mb-4 fs-5 text-muted">
+            The Nulla platform is easy to use and navigate. Built to spark
+            creativity and power productivity. Design to make your dream true
+        </p>
+        <div class="d-inline-flex gap-2 mb-5 pb-5">
+            <ActionButton text="Start for free" class="outline" />
+            <ActionButton
+                text="See prices"
+                class="outline"
+                isSecondary={true}
+            >
+            </ActionButton>
+        </div>
+    </div>
+    <style>
+        .container {
+            min-width: 100%;
+            position: relative;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</div>
