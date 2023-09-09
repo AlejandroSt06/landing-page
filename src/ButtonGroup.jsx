@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
-import "../../public/ButtonGroup.css"
-import "../../public/Slider.css"
+import "../public/ButtonGroup.css"
+import "../public/Slider.css"
 import business from "./business.json"
 import Slider from './Slider';
 import { renderToBufferDestination } from 'astro/runtime/server/render/util.js';

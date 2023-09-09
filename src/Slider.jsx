@@ -1,4 +1,4 @@
-import "../../public/Slider.css"
+import "../public/Slider.css"
 function Slider(props) {
 
 
