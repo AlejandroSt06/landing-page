@@ -1,20 +1,110 @@
+---
 
-<div class="home-image container">
-    <img src="https://cdn.dribbble.com/userupload/2834750/file/original-7304abbfff1a6c79f0c4d171bca84582.png?resize=1200x900&vertical=center" alt="">
+---
+
+<div class="atroposes">
+  <!-- main Atropos container (required), add your custom class here -->
+  <div class="atropos des-atropos my-atropos">
+    <!-- scale container (required) -->
+    <div class="atropos-scale">
+      <!-- rotate container (required) -->
+      <div class="atropos-rotate">
+        <!-- inner container (required) -->
+        <div class="atropos-inner">
+          <!-- put your custom content here -->
+          <img
+            src="/home-img.png"
+            data-atropos-offset="-5"
+            style="width: 100%;"
+          />
+          <div class="text-over" data-atropos-offset="0">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 </div>
 
+<script>
+  const myAtropos = Atropos({
+    el: ".my-atropos",
+    // rest of parameters
+    rotateLock: true,
+
+    // rotateXMax: 75,
+    // rotateYMax: 75,
+
+    shadow: true,
+    shadowOffset: 50,
+    // shadowScale: 5,
+    // highlight: false,
+    // durationEnter: 1000,
+    // activeOffset: 560
+  });
+</script>
 <style is:global>
-    .home-image{
-        padding-top: 100px;
+  .home-image {
+    padding-top: 100px;
+  }
+  .home-image img {
+    width: 55%;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  .atroposes {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .atropos-rotate{
+    border-radius: 12px;
+  }
+.atropos-inner{
+  border-radius: 12px;
+  
+}
+
+  .des-atropos {
+    width: 40%;
+    height: auto;
+    margin: 10px;
+    
+  }
+.des-atropos div{
+  border-radius: 12px;
+}
+  .text-over {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 180%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+
+  .text-over-2 {
+    position: absolute;
+    bottom: 60px;
+    left: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 180%;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  }
+  @media screen and (max-width: 800px) {
+    .des-atropos {
+      width: 85%;
     }
-    .home-image img {
-       width: 55%;
-      
-    }
-    @media  screen and (max-width:800px) {
-        .home-image img {
-       width: 85%;
-      
-    }
-    }
+  }
 </style>
